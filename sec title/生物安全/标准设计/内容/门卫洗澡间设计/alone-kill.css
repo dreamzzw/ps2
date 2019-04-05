@@ -10,7 +10,7 @@ body{
     font-family: "Microsoft Yahei",tahoma,arial;
     font-size: 16px;
     color: #333;
-    line-height: 2.1em;
+    line-height: 2.5em;
 }
 .header{
     width: 100%;
@@ -32,6 +32,9 @@ body{
     color: #2f2f2f;
     font-family: "Myriad Set Pro","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
     -webkit-font-smoothing: antialiased;
+}
+.bdy p{
+    color: #bfbfbf;
 }
 .picture{
     height: 373px;
