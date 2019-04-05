@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+    font-family: "Microsoft Yahei",tahoma,arial;
+    font-size: 16px;
+    color: #333;
+    line-height: 30px;
+}
+.header{
+    width: 100%;
+    height: 42px;
+    background-color: #494A5F;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 20px;
+}
+.header p{
+    display: inline-block;
+    line-height: 42px;
+}
+.bdy{
+    width: 100%;
+    height: 900px;
+    /* border: 1px solid black; */
+    padding: 3px 20px;
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #2f2f2f;
+    font-family: "Myriad Set Pro","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.picture{
+    width: 100%;
+    height: 413px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+.bdy h2,.text,.picture{
+    margin-top: 15px;
+}
+.picture img{
+    width: 100%;
+}
+
+
+
+
