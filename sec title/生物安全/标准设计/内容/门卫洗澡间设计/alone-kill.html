@@ -7,11 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>demo</title>
     <link rel="stylesheet" href="alone-kill.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
 </head>
 
 <body>
     <div class="header">
-        <p>Pigsop</p>
+        <a href="#">
+            <span><img src="./images/home.png" alt=""></span>
+        </a>
+        <h3>
+            <p>Pigsop:生物安全/设计标准</p>
+        </h3>
     </div>
     <div class="bdy">
         <h2>疫区疑似非洲猪瘟猪只个体宰杀</h2>
@@ -26,7 +33,7 @@
             </ul>
         </div>
         <div class="picture">
-            <img src="./img-alone-kill/tupian.jpeg" alt="">
+            <img src="./images/goodmoring7.png" alt="">
         </div>
         <div class="text">
             <h3>判定标准：</h3>
@@ -38,6 +45,62 @@
             </ul>
         </div>
     </div>
+
+    <div class="suspension">
+        <a class="consult" target="_blank" title="在线客服">
+            <div class="suspension-list" style="display:none;">
+                <div class="suspension-list-content">
+                    <ul>
+                        <li>
+                            <div href="javascript:;" class="service-phone">
+                                <span class="info-name">咨询热线</span>
+                                <span class="info-value">15942067712</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div href="javascript:;" class="service-qq">
+                                <span class="info-name">在线客服</span>
+                                <span class="info-value">QQ:409572954</span>
+                            </div>
+                        </li>
+                        <li class="suspension-list-bottom">
+                            <div href="javascript:;" class="service-proposal">
+                                <span class="info-name">投诉与建议</span>
+                                <span class="info-value">最快10分钟内回应</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </a>
+        <a class="cart" title="关注微信公众账号">
+            <div class="pic">
+                <div class="pic-content"></div>
+            </div>
+        </a>
+        <a href="javascript:void(0)" class="back-top" style="display: block;" title="返回顶部"></a>
+    </div>
+
+    <script type="text/javascript">
+        $(function () {
+            $(".back-top").hide();
+            $(".back-top").live("click", function () {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 400);
+                return false;
+            })
+            $(window).bind('scroll resize', function () {
+                if ($(window).scrollTop() <= 400) {
+                    $(".back-top").hide();
+                } else {
+                    $(".back-top").show();
+                }
+            })
+        })
+    </script>
+
+
 </body>
 
 </html>
