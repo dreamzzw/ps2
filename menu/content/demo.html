@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>countent</title>
+    <link rel="stylesheet" href="./css/countent.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <a href="https://dreamzzw.github.io/ps2/PigsopM.html">
+            <span><img src="./images/home.png" alt=""></span>
+        </a>
+        <h3>
+            <p>Pigsop:疾病百科/ASF非洲猪瘟</p>
+        </h3>
+    </div>
+    <div class="bdy">
+        <h2>ASF非洲猪瘟</h2>
+        <p>2019年4月5日</p>
+        <div class="text">
+            <h3>基本介绍：</h3>
+            <ul>
+                <li>1. </li>
+                <li>2. </li>
+                <li>3. </li>
+                <li>4. </li>
+                <li>5. </li>
+                <li>6. </li>
+                <li>7. </li>
+            </ul>
+        </div>
+        <div class="picture">
+            <img src="./images/fbgc.png" alt="">
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="suspension">
+        <a class="consult" target="_blank" title="在线客服">
+            <div class="suspension-list" style="display:none;">
+                <div class="suspension-list-content">
+                    <ul>
+                        <li>
+                            <div href="javascript:;" class="service-phone">
+                                <span class="info-name">咨询热线</span>
+                                <span class="info-value">15942067712</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div href="javascript:;" class="service-qq">
+                                <span class="info-name">在线客服</span>
+                                <span class="info-value">QQ:409572954</span>
+                            </div>
+                        </li>
+                        <li class="suspension-list-bottom">
+                            <div href="javascript:;" class="service-proposal">
+                                <span class="info-name">投诉与建议</span>
+                                <span class="info-value">最快10分钟内回应</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </a>
+        <a class="cart" title="关注微信公众账号">
+            <div class="pic">
+                <div class="pic-content"></div>
+            </div>
+        </a>
+        <a href="javascript:void(0)" class="back-top" style="display: block;" title="返回顶部"></a>
+    </div>
+
+    <script type="text/javascript">
+        $(function () {
+            $(".back-top").hide();
+            $(".back-top").live("click", function () {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 400);
+                return false;
+            })
+            $(window).bind('scroll resize', function () {
+                if ($(window).scrollTop() <= 400) {
+                    $(".back-top").hide();
+                } else {
+                    $(".back-top").show();
+                }
+            })
+        })
+    </script>
+
+
+</body>
+
+</html>
